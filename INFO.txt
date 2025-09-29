@@ -1,0 +1,30 @@
+Uma mini aplicação Web para cadastro de clientes e seus endereços, desenvolvida para rodar 100% no navegador (client-side).  Os dados são persistidos no LocalStorage do navegador.
+
+Como Executar:
+
+Método 1:
+
+A aplicação está disponível online através do GitHub Pages e pode ser acessada diretamente pelo link abaixo:
+https://juliofrancisconi.github.io/CadastroClientes/
+
+Método 2:
+
+Clone ou baixe o repositório como .zip.
+Descompacte os arquivos em uma pasta local.
+Abra o arquivo index.html.
+
+Funcionalidades:
+
+Tela de Login com autenticação e cadastro de múltiplos usuários. 
+CRUD (Create, Read, Update, Delete) completo para Clientes, com validação de CPF único. 
+CRUD completo para Endereços, com relacionamento por cliente. 
+Implementação de regra de negócio para um único Endereço Principal por cliente. 
+Funcionalidade de exportação de todo o banco de dados para um arquivo .json. 
+Funcionalidade de importação de dados a partir de um arquivo .json para restaurar o estado da aplicação. 
+
+Tecnologias Utilizadas:
+
+HTML5
+CSS3 (com Bootstrap 5) 
+JavaScript (ES6 - Vanilla) 
+AlaSQL.js (Banco de dados SQL no navegador) 
