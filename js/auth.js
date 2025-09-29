@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         try {
-            [cite_start]// Verifica se o usuário já existe.
+            // Verifica se o usuário já existe.
             const existe = alasql('SELECT * FROM usuarios WHERE usuario = ?', [usuario]);
             if (existe.length > 0) {
                 alert('Este nome de usuário já está em uso.');
@@ -67,4 +67,5 @@ document.addEventListener('DOMContentLoaded', function() {
     if(importarDbInput) {
         importarDbInput.addEventListener('change', importarDados);
     }
+
 });
